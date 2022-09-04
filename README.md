@@ -1,3 +1,3 @@
 # Python-Foundation
 This respository consists of all the programme created by me during learning the python in classes and slef.
-![alt text](https://commons.wikimedia.org/wiki/File:Python_logo_and_wordmark.svg)
+<img src="https://preview.redd.it/rxezjyf4ojx41.png?auto=webp&s=f0cde794697d0904e44ca09a4f1e703cfecaf60a">
