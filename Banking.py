@@ -1,15 +1,20 @@
 import math
+import time
 
 print("Welcome to jingalala Bank")
+time.sleep (2)
 print("Please choose a service from the list below:- ")
+time.sleep (1)
 print("Press 1 for Loan")
+time.sleep (1)
 print("Press 2 for Withdrawl")
+time.sleep (1)
 print("Press 3 for Internet Banking")
 
 banking_service = int(input(""))
 
 if (banking_service == 1):
-    print("Would you like to take a Simple Interest Loan or Compound Interest Loan")
+    print("Would you like to take a S3imple Interest Loan or Compound Interest Loan")
     print("Press 1 for Simple Interest Loan and press 2 for compound interest loan")
     a = int(input(""))
     if (a == 1):
