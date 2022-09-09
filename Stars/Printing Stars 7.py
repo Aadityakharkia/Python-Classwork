@@ -1,3 +1,6 @@
+from re import S
+
+
 st = 1
 sp = 4
 for i in range (1,6):
@@ -8,3 +11,4 @@ for i in range (1,6):
     sp = sp-1
     st = st+1
     print()
+    S
