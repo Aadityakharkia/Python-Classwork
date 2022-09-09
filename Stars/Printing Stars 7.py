@@ -11,4 +11,4 @@ for i in range (1,6):
     sp = sp-1
     st = st+1
     print()
-    S
+    
