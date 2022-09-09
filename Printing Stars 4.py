@@ -5,8 +5,6 @@ for i in range (1,6):
         print(" ", end = " ")
     for k in range (1, st + 1):
         print("*", end =" ")
-    for m in range (1, sp + 1):
-        print(" ", end= " ")
     st = st+2
     sp = sp - 1 
     print() 
