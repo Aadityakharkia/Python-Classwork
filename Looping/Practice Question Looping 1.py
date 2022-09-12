@@ -1,9 +1,6 @@
 import math
-import string
-import time
-a = eval(input("Please enter the number in order to find its factorial "))
-from math import factorial
-
-for i in range (1 , a+1 ):
-    print(i)
-    
+a = int(input("Enter the numer to get the reverse of it "))
+b = str(a)
+for i in (1,a+1):
+    b = a/10
+    print()
