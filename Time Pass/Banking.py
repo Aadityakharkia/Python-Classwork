@@ -14,7 +14,7 @@ print("Press 3 for Internet Banking")
 banking_service = int(input(""))
 
 if (banking_service == 1):
-    print("Would you like to take a S3imple Interest Loan or Compound Interest Loan")
+    print("Would you like to take a S3imple Interest Loan or Compound nterest Loan")
     print("Press 1 for Simple Interest Lo and press 2 for compound interest loan")
     a = int(input(""))
     if (a == 1):
