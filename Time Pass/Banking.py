@@ -3,7 +3,7 @@ import time
 
 print("Welcome to jingalala Bank")
 time.sleep (2)
-print("Please choose a service from the list below:- ")
+print("Please choose a ervice from the list below:- ")
 time.sleep (1)
 print("Press 1 for Loan")
 time.sleep (1)
