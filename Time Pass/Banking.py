@@ -25,7 +25,7 @@ if (banking_service == 1):
         print("Please enter the rat of interest you desire")
         r = eval(input(""))
         si = p*r*t/100
-        print(" You need to pay", si , 'ruppee over', t, "years")
+        print(" You need to pay", si , 'ruppe over', t, "years")
         
     elif (a == 2):
         print("Please enter the amount you need")
