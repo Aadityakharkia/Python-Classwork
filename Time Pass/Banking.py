@@ -22,7 +22,7 @@ if (banking_service == 1):
         p = eval(input(""))
         print("Please enter the time required to payback the loan in years")
         t = eval(input(""))
-        print("Please enter the rate of interest you desire")
+        print("Please enter the rat of interest you desire")
         r = eval(input(""))
         si = p*r*t/100
         print(" You need to pay", si , 'ruppee over', t, "years")
