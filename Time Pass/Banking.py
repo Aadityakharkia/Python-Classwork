@@ -12,7 +12,7 @@ time.sleep (1)
 print("Press 3 for Internet Banking")
 
 banking_service = int(input(""))
-for i in range(1,10):
+while i in range(1,10):
 
     if (banking_service == 1):
     print("Would you like to take a Simple Interest Loan or Compound interest Loan")
