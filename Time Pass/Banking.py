@@ -15,7 +15,7 @@ banking_service = int(input(""))
 
 if (banking_service == 1):
     print("Would you like to take a Simple Interest Loan or Compound interest Loan")
-    print("Press 1 for Simple Interet Lo and press 2 for compound interest loan")
+    print("Press 1 for Simple Interet Loan and press 2 for compound interest loan")
     a = int(input(""))
     if (a == 1):
         print("Please enter the amount you need")
