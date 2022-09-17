@@ -51,7 +51,7 @@ while i in range(1,10):
     print("Thankyou for visiting us, have a nice day ahead")
 
     else:
-    print("Please choose ad valid Service from the list given above")
+    print("Please choose a valid Service from the list given above")
 
 Final = eval(input("Would yoeu like to return to home page or End the programme "))
 
