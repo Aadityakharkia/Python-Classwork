@@ -12,8 +12,9 @@ time.sleep (1)
 print("Press 3 for Internet Banking")
 
 banking_service = int(input(""))
+for i in range(1,10):
 
-if (banking_service == 1):
+    if (banking_service == 1):
     print("Would you like to take a Simple Interest Loan or Compound interest Loan")
     print("Press 1 for Simple Interet Loan and press 2 for compound interest loan")
     a = int(input(""))
@@ -40,14 +41,14 @@ if (banking_service == 1):
     else:
         print("Please choose a valid Service from the list given above")
 
-elif (banking_service == 2):
+    elif (banking_service == 2):
     print("Sorry you are not eligible for this service")
     print("Thankyou for visiting us, have a nice day ahead")
     
  
-elif (banking_service == 3):
+    elif (banking_service == 3):
     print("Sorry you are not eligible for this service")
     print("Thankyou for visiting us, have a nice day ahead")
 
-else:
+    else:
     print("Please choose a valid Service from the list given above")
