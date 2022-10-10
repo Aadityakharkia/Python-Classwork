@@ -7,4 +7,4 @@ for i in range(0,l):
             c=c+1
 if(l>0):
     c=c+1 
-print(" Number of vowels a in the sentence ",a, "is",c)
+print(" Number of words a in the sentence ",a, "is",c)
