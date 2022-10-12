@@ -1,4 +1,5 @@
 a = input("Please enter a sentence")
-b= a.rfind("a")
-print(b)
+c= " "
+b= a.rfind(c)
+print(a(1) + (b+1))
 
