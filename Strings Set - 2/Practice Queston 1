@@ -1,4 +1,5 @@
+import string
 a= input("Please enter a sentence - ")
 a= a.strip()
-c= a.title 
+c= string.capwords(a)
 print(c)
