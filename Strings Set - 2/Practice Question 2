@@ -1,0 +1,11 @@
+a= input("Please input the number :- ")
+a=a.strip()
+b=len(a)
+c= a.upper()
+for i in range(0,c):
+    if ((i%2)==0):
+        c = a.lower()
+        print(c)
+    else:
+        c= a.upper()
+        print(c)

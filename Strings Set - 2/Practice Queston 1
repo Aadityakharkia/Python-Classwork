@@ -1,2 +1,4 @@
 a= input("Please enter a sentence - ")
 a= a.strip()
+c= a.title 
+print(c)
