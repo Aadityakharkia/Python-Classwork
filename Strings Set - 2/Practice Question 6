@@ -1,7 +1,12 @@
-from typing_extensions import Required
 
-
-a= input("Please enter your email address :- ", Required)
-
-
-print(a)
+a= input("Please enter your email address :- ")
+b="@"
+c=a.rfind(b)
+d=""
+e=""
+for i in range(0:c):
+    d= d+a[i]
+for i in range(c:):
+    e= e+a[i]
+print(str(d))
+print(str(e))
