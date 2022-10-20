@@ -1,9 +1,11 @@
 import string
 a= input("Please input the sentence :- ")
 a=a.strip()
+c=a.split()
 b = ""
-for i in range(len(a)):
-    if not a % 2 :
-       b = b + a[i].upper()
+for i in range(len(c)):
+    if ((i%2)==0):
+       b = b + c[i].upper() + " "
     else:
-       b = b + a[i].lower()
+       b = b + c[i].lower() + " "
+print(str(b))
