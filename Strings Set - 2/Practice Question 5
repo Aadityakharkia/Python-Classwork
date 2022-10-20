@@ -1,0 +1,10 @@
+import string
+a= input("Please input the sentence :- ")
+a=a.strip()
+b = ""
+for i in range(len(a)):
+    if ((i%2)==0):
+       b = b + a[i].upper() 
+    else:
+       b = b + a[i].lower()
+print(str(b))
