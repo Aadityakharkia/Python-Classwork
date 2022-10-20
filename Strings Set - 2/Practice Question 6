@@ -1,5 +1,6 @@
 
 a= input("Please enter your email address :- ")
+'''
 b="@"
 c=a.rfind(b)
 d=""
@@ -10,3 +11,6 @@ for i in range(c:):
     e= e+a[i]
 print(str(d))
 print(str(e))
+'''
+b = a('@')[1]
+print("The extracted domain name : " + str(b))
