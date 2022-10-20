@@ -1,8 +1,8 @@
-a= input("Please enter a sentence:- ")
+a= input("Please enter a word:- ")
 b= a.lower()
 c = b [::-1]
 if (b==c):
-    print("Trure")
+    print("The Word is Palindrome")
 else:
-    print("The number is not ")
+    print("The number is not Palindrome")
 
