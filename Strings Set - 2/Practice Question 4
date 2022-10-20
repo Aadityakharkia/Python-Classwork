@@ -1,0 +1,8 @@
+a= input("Please enter a sentence:- ")
+b= a.lower()
+c = b [::-1]
+if (b==c):
+    print("Trure")
+else:
+    print("The number is not ")
+
