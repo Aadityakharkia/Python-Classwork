@@ -2,6 +2,6 @@ from typing_extensions import Required
 
 
 a= input("Please enter your email address :- ", Required)
-if '@' not in a: raise ValueError('@ was not present')
+
 
 print(a)
