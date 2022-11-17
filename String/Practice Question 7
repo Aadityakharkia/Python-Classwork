@@ -1,0 +1,4 @@
+a= input("Please Enter a name")
+b= ["Aaditya","Rose"]
+b.append(a)
+print(b)

@@ -1,0 +1,8 @@
+s="This is a sentence that is to be checked for number of spaces" 
+
+sp=0 
+
+for i in range(len(s)): 
+    if(s[i]==" "): 
+        sp=sp+1 
+        print("Total number of spaces are :",sp) 
