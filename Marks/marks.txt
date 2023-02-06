@@ -1,0 +1,2 @@
+Aaditya Kharkia | 10 |English:22 | Maths:33 | Hindi:55 | Science:77 | Computers:66
+asf | 2 |English:55 | Maths:44 | Hindi:989 | Science:77 | Computers:6
